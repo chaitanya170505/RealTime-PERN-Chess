@@ -12,9 +12,8 @@ A full-stack real-time chess platform built with the **PERN stack (PostgreSQL, E
 - 👫 **Play with Friends** via private room links
 - 💬 **In-game Chat System** for live communication
 - 🔐 **JWT Authentication & bcrypt-secured login**
-- 🗃️ **User History & Game Records** stored in **PostgreSQL**
+- 🗃️ **User Results** stored in **PostgreSQL**
 - 📱 **Responsive UI** using **React.js** and **React Chessboard**
-- ☁️ **Scalable Deployment** on platforms like **Render, Vercel, or AWS**
 
 ---
 
