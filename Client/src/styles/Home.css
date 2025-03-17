@@ -1,0 +1,19 @@
+/* home styles */
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #1c1b1b;
+    height: 100%;
+    color: white;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

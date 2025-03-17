@@ -1,0 +1,46 @@
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icon {
+  background-color: #5c5959;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+/* styling color of the icon */
+
+.icon svg {
+  color: white;
+  fill: rgb(255, 255, 255);
+}
+
+/* revoving default blue color */
+.icon a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icon:hover {
+  background-color: gray;
+}

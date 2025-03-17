@@ -1,0 +1,31 @@
+{
+  "name": "client-chess",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/main.tsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chess.js": "^1.0.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.477.0",
+    "react": "^19.0.0",
+    "react-chessboard": "^4.7.2",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-spinners": "^0.15.0",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}

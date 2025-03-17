@@ -1,0 +1,84 @@
+/* play bot options styling  */
+
+.chess-setup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c1b1b;
+}
+
+.chess-setup-box {
+  max-width: 500px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #0a0a0a, #1c1c1c);
+  box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.1),
+              -4px -4px 10px rgba(255, 255, 255, 0.05);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.chess-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.chess-selection-group {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chess-label {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ddd;
+}
+
+.chess-dropdown {
+  width: 80%;
+  padding: 12px;
+  font-size: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  background: #111;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  transition: 0.3s;
+  
+}
+
+.chess-dropdown:hover,
+.chess-dropdown:focus {
+  border-color: #fff;
+  background: #222;
+}
+
+.chess-start-button {
+  margin-top: 25px;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 3px solid #fff;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+.chess-start-button:hover {
+  background-color: #fff;
+  color: #000;
+  border-color: #000;
+  transform: scale(1.05);
+}

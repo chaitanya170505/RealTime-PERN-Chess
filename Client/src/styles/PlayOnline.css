@@ -1,0 +1,122 @@
+/* play online styling */
+
+.play-online-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #1c1b1b; 
+}
+
+.play-online-container {
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  background-color: black; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.play-online-container h1,
+.play-online-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; 
+}
+
+.play-online-container .game-options,
+.play-online-container .color-selection {
+  margin-bottom: 20px;
+}
+
+.play-online-container label {
+  font-size: 18px;
+  margin-right: 10px;
+  color: #ffffff;
+}
+
+.play-online-container select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #666; 
+  border-radius: 4px;
+  width: 100%;
+  background-color: #2e2d2d; 
+  color: #ffffff; 
+}
+
+.play-online-container button {
+  padding: 10px 15px;
+  background-color: #252a34; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.play-online-container button:hover {
+  background-color: #08d9d6; 
+}
+
+.play-online-container .join-room-container {
+  margin-top: 30px;
+}
+
+.play-online-container .join-room-container input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #666; 
+  border-radius: 4px;
+  width: 80%;
+  background-color: #2e2d2d; 
+  color: white;
+}
+
+.play-online-container .join-room-container button {
+  padding: 10px 15px;
+  background-color: #ff2e63;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.play-online-container .join-room-container button:hover {
+  background-color: #08d9d6;
+}
+
+.generated-room {
+  margin-top: 20px;
+  background-color: #1c1b1b;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.generated-room p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ffffff; 
+}
+
+.generated-room button {
+  padding: 10px 15px;
+  background-color: #252a34; 
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.generated-room button:hover {
+  background-color: #08d9d6; 
+}
